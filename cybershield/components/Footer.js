@@ -13,7 +13,7 @@ export default function Footer() {
               dan uji kemampuanmu.
             </p>
             <div className="footer-badge">
-              © 2025 Muhammad Rizqi Firdaus · 2402310196
+              © 2025 Muhammad Rizqi Firdaus
             </div>
           </div>
 
@@ -57,7 +57,7 @@ export default function Footer() {
 
         <div className="footer-bottom">
           <p>
-            Dibuat untuk keperluan UAS · <span>DAIS 2025</span>
+            Dibuat untuk keperluan UAS · <span>Data and Information Security 2026</span>
           </p>
           <p>
             <span>CyberShield</span> — Lindungi Dirimu di Dunia Digital
