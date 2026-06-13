@@ -1,0 +1,352 @@
+/* ===== HERO ===== */
+.hero {
+  padding: 80px 0 64px;
+  border-bottom: 4px solid var(--black);
+  position: relative;
+  overflow: hidden;
+  background: var(--bg);
+}
+
+.heroContent {
+  max-width: 680px;
+  position: relative;
+  z-index: 1;
+}
+
+.heroLabel {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 3px solid var(--black);
+  background: var(--black);
+  color: var(--lime);
+  font-size: 0.85rem;
+  margin-bottom: 24px;
+  font-family: 'Space Mono', monospace;
+}
+
+.heroTitle {
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  font-weight: 800;
+  line-height: 1.0;
+  letter-spacing: -0.03em;
+  margin-bottom: 24px;
+}
+
+.heroHighlight {
+  display: inline-block;
+  background: var(--yellow);
+  padding: 0 12px;
+  border: 3px solid var(--black);
+  box-shadow: 6px 6px 0 var(--black);
+  transform: rotate(-1.5deg);
+}
+
+.heroDesc {
+  font-size: 1.15rem;
+  color: #333;
+  line-height: 1.7;
+  margin-bottom: 32px;
+  max-width: 560px;
+}
+
+.heroCtas {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.heroMeta {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.heroBadge {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.badgeCard {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--white);
+  border: 4px solid var(--black);
+  box-shadow: 8px 8px 0 var(--black);
+  padding: 16px 20px;
+  min-width: 240px;
+}
+
+.badgeIcon {
+  width: 48px;
+  height: 48px;
+  background: var(--lime);
+  border: 3px solid var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.badgeTitle {
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+
+.badgeSubtitle {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.75rem;
+  color: #666;
+}
+
+.badgeWarning {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--red);
+  border: 3px solid var(--black);
+  box-shadow: 5px 5px 0 var(--black);
+  padding: 10px 16px;
+  color: var(--white);
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.heroPattern {
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 20px,
+    rgba(0, 0, 0, 0.025) 20px,
+    rgba(0, 0, 0, 0.025) 40px
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+
+@media (max-width: 900px) {
+  .heroBadge { display: none; }
+}
+
+/* ===== STATS ===== */
+.statsHeader {
+  margin-bottom: 40px;
+}
+
+.statsGrid {
+  gap: 20px;
+}
+
+.statCard {
+  background: var(--white);
+  border: 4px solid var(--white);
+  padding: 28px 24px;
+  box-shadow: 6px 6px 0 rgba(255,255,255,0.3);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.statCard:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 9px 9px 0 rgba(255,255,255,0.3);
+}
+
+.statCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: var(--accent);
+}
+
+.statIcon {
+  font-size: 1.8rem;
+  margin-bottom: 12px;
+}
+
+.statValue {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1;
+  margin-bottom: 8px;
+  font-family: 'Space Mono', monospace;
+}
+
+.statLabel {
+  font-size: 0.9rem;
+  color: #333;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* ===== FEATURES ===== */
+.featuresGrid {
+  gap: 20px;
+}
+
+.featureCard {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 28px 24px;
+  background: var(--white);
+  border: 4px solid var(--black);
+  box-shadow: 6px 6px 0 var(--black);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  cursor: pointer;
+}
+
+.featureCard:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 9px 9px 0 var(--black);
+}
+
+.featureTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.featureIconBox {
+  width: 52px;
+  height: 52px;
+  border: 3px solid var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+}
+
+.featureTitle {
+  font-size: 1.15rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.featureDesc {
+  font-size: 0.92rem;
+  color: #444;
+  line-height: 1.6;
+  flex: 1;
+}
+
+.featureArrow {
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-family: 'Space Mono', monospace;
+}
+
+/* ===== ARTICLES ===== */
+.articlesHeader {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.articlesGrid {
+  gap: 20px;
+}
+
+.articleCard {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 24px;
+  cursor: pointer;
+}
+
+.articleMeta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.readTime {
+  font-size: 0.78rem;
+  color: #666;
+}
+
+.articleTitle {
+  font-size: 1.1rem;
+  font-weight: 800;
+  line-height: 1.3;
+  flex: 1;
+}
+
+.articleExcerpt {
+  font-size: 0.9rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.articleFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 12px;
+  border-top: 2px solid #eee;
+  font-size: 0.82rem;
+  font-weight: 700;
+  font-family: 'Space Mono', monospace;
+  color: #666;
+}
+
+/* ===== CTA BANNER ===== */
+.ctaBanner {
+  padding: 64px 0;
+  background: var(--yellow);
+  border-top: 4px solid var(--black);
+  border-bottom: 4px solid var(--black);
+}
+
+.ctaInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.ctaTitle {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 800;
+  line-height: 1.0;
+  margin-bottom: 12px;
+}
+
+.ctaDesc {
+  font-size: 1rem;
+  max-width: 480px;
+  color: #333;
+  line-height: 1.7;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}

@@ -1,0 +1,217 @@
+/* Progress */
+.progress {
+  margin-top: 32px;
+  max-width: 480px;
+}
+
+.progressHeader {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.82rem;
+  margin-bottom: 8px;
+}
+
+.progressTrack {
+  height: 14px;
+  background: var(--bg-alt);
+  border: 3px solid var(--black);
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: var(--lime);
+  transition: width 0.4s ease;
+}
+
+.progressComplete {
+  margin-top: 10px;
+  padding: 10px 14px;
+  background: var(--lime);
+  border: 2px solid var(--black);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+/* Filters */
+.filters {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.filterBtn {
+  padding: 8px 16px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  font-family: 'Space Grotesk', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: 3px solid var(--black);
+  background: var(--white);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  box-shadow: 3px 3px 0 var(--black);
+}
+
+.filterBtn:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0 var(--black);
+}
+
+.filterActive {
+  background: var(--black);
+  color: var(--white);
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 0 var(--black);
+}
+
+/* Grid */
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Card */
+.card {
+  background: var(--white);
+  border: 4px solid var(--black);
+  box-shadow: 5px 5px 0 var(--black);
+  transition: box-shadow 0.15s, transform 0.15s;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  background: var(--color, var(--yellow));
+}
+
+.cardRead {
+  border-color: var(--color, var(--yellow));
+}
+
+.cardOpen {
+  box-shadow: 7px 7px 0 var(--black);
+}
+
+.cardHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 20px 20px 20px 26px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.cardLeft {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1;
+  min-width: 0;
+}
+
+.cardIcon {
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  background: var(--color, var(--yellow));
+  border: 3px solid var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.cardInfo {
+  flex: 1;
+  min-width: 0;
+}
+
+.cardMeta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+
+.levelTag {
+  background: var(--bg-alt) !important;
+  font-size: 0.7rem !important;
+}
+
+.readBadge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  font-family: 'Space Mono', monospace;
+  color: green;
+  padding: 2px 8px;
+  border: 2px solid green;
+  background: rgba(0,255,0,0.07);
+}
+
+.cardTitle {
+  font-size: 1.05rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 4px;
+}
+
+.cardShort {
+  font-size: 0.88rem;
+  color: #555;
+  font-style: italic;
+}
+
+.chevron {
+  font-size: 1.1rem;
+  font-weight: 900;
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+}
+
+.chevronOpen {
+  transform: rotate(180deg);
+}
+
+.cardBody {
+  padding: 0 20px 20px 26px;
+  border-top: 3px dashed #ddd;
+  margin-top: 0;
+  animation: slideDown 0.2s ease;
+}
+
+.cardDetail {
+  padding-top: 16px;
+  font-size: 0.97rem;
+  line-height: 1.8;
+  color: #222;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.empty {
+  text-align: center;
+  padding: 60px;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.empty span { font-size: 3rem; display: block; margin-bottom: 12px; }
