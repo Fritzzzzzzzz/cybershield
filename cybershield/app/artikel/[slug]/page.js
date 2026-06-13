@@ -8,7 +8,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }) {
-  const article = articles.find((a) => a.slug === params.slug);
+  const { slug } = await params;
+  const article = articles.find((a) => a.slug === slug);
   if (!article) return {};
   return {
     title: article.title,
@@ -94,11 +95,12 @@ function renderContent(content) {
   return elements;
 }
 
-export default function ArtikelDetailPage({ params }) {
-  const article = articles.find((a) => a.slug === params.slug);
+export default async function ArtikelDetailPage({ params }) {
+  const { slug } = await params;
+  const article = articles.find((a) => a.slug === slug);
   if (!article) notFound();
 
-  const otherArticles = articles.filter((a) => a.slug !== params.slug).slice(0, 3);
+  const otherArticles = articles.filter((a) => a.slug !== slug).slice(0, 3);
 
   return (
     <>
