@@ -4,7 +4,7 @@ export const articles = [
     category: "Ancaman Digital",
     categoryColor: "#ff3c3c",
     readTime: "5 menit",
-    date: "10 Juni 2025",
+    date: "10 Juni 2026",
     title: "Apa Itu Phishing? Kenali Sebelum Jadi Korban",
     excerpt:
       "Phishing adalah salah satu serangan siber paling umum yang menipu korban agar menyerahkan data pribadi mereka secara sukarela.",
@@ -61,7 +61,7 @@ Serangan yang menargetkan eksekutif perusahaan atau individu berprofil tinggi.
     category: "Password",
     categoryColor: "#b8ff00",
     readTime: "4 menit",
-    date: "8 Juni 2025",
+    date: "8 Juni 2026",
     title: "Panduan Lengkap Membuat Password yang Kuat dan Aman",
     excerpt:
       "Password '123456' masih menjadi password paling banyak digunakan di dunia. Pelajari cara membuat password yang benar-benar aman.",
@@ -123,7 +123,7 @@ Password manager adalah aplikasi yang menyimpan dan menghasilkan password kuat s
     category: "Autentikasi",
     categoryColor: "#ffe600",
     readTime: "3 menit",
-    date: "5 Juni 2025",
+    date: "5 Juni 2026",
     title: "Two-Factor Authentication (2FA): Lapisan Keamanan Ekstra yang Wajib",
     excerpt:
       "Bahkan password terkuat pun bisa bocor. 2FA adalah perlindungan berlapis yang membuat akun kamu jauh lebih aman.",
@@ -192,7 +192,7 @@ Menurut Microsoft, **2FA memblokir 99.9% serangan akun otomatis**. Bahkan jika p
     category: "Jaringan",
     categoryColor: "#00bfff",
     readTime: "4 menit",
-    date: "3 Juni 2025",
+    date: "3 Juni 2026",
     title: "Bahaya Wi-Fi Publik dan Cara Aman Menggunakannya",
     excerpt:
       "Wi-Fi gratis di kafe atau mall terasa menggiurkan, tapi tahukah kamu bahwa data kamu bisa dicuri hanya dengan terhubung ke jaringan yang salah?",
@@ -253,7 +253,7 @@ Pastikan firewall perangkat kamu aktif saat menggunakan Wi-Fi publik.
     category: "Malware",
     categoryColor: "#ff3c3c",
     readTime: "6 menit",
-    date: "1 Juni 2025",
+    date: "1 Juni 2026",
     title: "Ransomware: Ketika Data Kamu Disandera",
     excerpt:
       "Ransomware telah menyebabkan kerugian miliaran dolar setiap tahunnya. Pelajari cara kerjanya dan bagaimana mencegahnya.",
@@ -323,7 +323,7 @@ Mencolokkan USB yang terinfeksi bisa langsung menyebarkan ransomware.
     category: "Ancaman Digital",
     categoryColor: "#ff3c3c",
     readTime: "5 menit",
-    date: "28 Mei 2025",
+    date: "28 Mei 2026",
     title: "Social Engineering: Ketika Manusia Jadi Titik Lemah Keamanan",
     excerpt:
       "Teknologi keamanan paling canggih pun bisa ditembus jika manusia di baliknya bisa dimanipulasi. Kenali teknik social engineering.",
@@ -340,7 +340,7 @@ Berbeda dengan serangan teknis yang menyerang sistem, social engineering menyera
 Penyerang menciptakan skenario palsu (pretext) untuk mendapatkan informasi. Contoh: berpura-pura sebagai auditor IT yang membutuhkan akses sistem.
 
 ### 2. Baiting
-Menggunakan "umpan" fisik atau digital. Contoh: meninggalkan USB drive di parkiran kantor dengan label "Gaji Karyawan 2025" — siapa yang penasaran dan mencolokkannya akan terinfeksi malware.
+Menggunakan "umpan" fisik atau digital. Contoh: meninggalkan USB drive di parkiran kantor dengan label "Gaji Karyawan 2026" — siapa yang penasaran dan mencolokkannya akan terinfeksi malware.
 
 ### 3. Quid Pro Quo
 Menawarkan sesuatu sebagai imbalan informasi. Contoh: menelepon dan menawarkan bantuan teknis gratis, lalu meminta akses ke komputer.

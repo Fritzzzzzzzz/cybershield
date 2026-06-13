@@ -85,7 +85,7 @@ export default function HomePage() {
               <div className={styles.badgeIcon}>🔐</div>
               <div>
                 <div className={styles.badgeTitle}>Stay Secure</div>
-                <div className={styles.badgeSubtitle}>Cyber Awareness 2025</div>
+                <div className={styles.badgeSubtitle}>Cyber Awareness 2026</div>
               </div>
             </div>
             <div className={styles.badgeWarning}>

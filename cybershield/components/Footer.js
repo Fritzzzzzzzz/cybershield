@@ -13,7 +13,7 @@ export default function Footer() {
               dan uji kemampuanmu.
             </p>
             <div className="footer-badge">
-              © 2025 Muhammad Rizqi Firdaus
+              © 2026 Muhammad Rizqi Firdaus
             </div>
           </div>
 

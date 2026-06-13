@@ -15,7 +15,7 @@ Sistem kami mendeteksi aktivitas mencurigakan pada akun Anda. Untuk keamanan And
 Klik tombol di bawah untuk verifikasi akun Anda:`,
     buttonText: "VERIFIKASI SEKARANG",
     buttonUrl: "http://bca-verifikasi-akun.xyz/login",
-    footer: "BCA © 2025 | Jl. MH Thamrin No.1, Jakarta",
+    footer: "BCA © 2026 | Jl. MH Thamrin No.1, Jakarta",
     clues: [
       {
         element: "email",
@@ -55,7 +55,7 @@ If you didn't sign in, take these steps immediately to secure your account:
 
 Device: Windows PC
 Location: Jakarta, Indonesia
-Time: Saturday, June 13, 2025, 10:32 PM WIB`,
+Time: Saturday, June 13, 2026, 10:32 PM WIB`,
     buttonText: "Review Activity",
     buttonUrl: "https://myaccount.google.com/security",
     footer: "Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043",
@@ -87,7 +87,7 @@ Time: Saturday, June 13, 2025, 10:32 PM WIB`,
     difficulty: "Mudah",
     from: {
       name: "WhatsApp Team",
-      email: "winner@whatsapp-prize2025.com",
+      email: "winner@whatsapp-prize2026.com",
     },
     subject: "🎉 Selamat! Anda Memenangkan iPhone 15 Pro dari WhatsApp!",
     body: `Kepada Pengguna WhatsApp yang Beruntung,
@@ -105,12 +105,12 @@ Untuk mengklaim hadiah, Anda harus:
 
 KLAIM SEBELUM 23:59 MALAM INI!`,
     buttonText: "KLAIM HADIAH SAYA",
-    buttonUrl: "http://whatsapp-prize2025.com/claim?id=WIN88234",
+    buttonUrl: "http://whatsapp-prize2026.com/claim?id=WIN88234",
     footer: "WhatsApp Inc. | Hadiah akan hangus jika tidak diklaim hari ini.",
     clues: [
       {
         element: "email",
-        text: "whatsapp-prize2025.com",
+        text: "whatsapp-prize2026.com",
         explanation:
           "Domain email bukan @whatsapp.com. WhatsApp tidak pernah menghubungi pengguna dari domain pihak ketiga.",
       },
@@ -143,12 +143,12 @@ KLAIM SEBELUM 23:59 MALAM INI!`,
       name: "Tokopedia",
       email: "noreply@mail.tokopedia.com",
     },
-    subject: "Pesanan #TKP-2025061388234 telah dikonfirmasi",
+    subject: "Pesanan #TKP-2026061388234 telah dikonfirmasi",
     body: `Halo,
 
 Terima kasih telah berbelanja di Tokopedia! Berikut detail pesanan Anda:
 
-Pesanan: #TKP-2025061388234
+Pesanan: #TKP-2026061388234
 Produk: Laptop ASUS VivoBook 15 (1 pcs)
 Total: Rp 8.500.000
 Metode Pembayaran: Transfer Bank
@@ -156,8 +156,8 @@ Status: Menunggu Pembayaran
 
 Selesaikan pembayaran dalam 24 jam agar pesanan tidak dibatalkan otomatis.`,
     buttonText: "Bayar Sekarang",
-    buttonUrl: "https://www.tokopedia.com/payment/TKP-2025061388234",
-    footer: "© 2025 Tokopedia. PT Tokopedia, Ciputra World 2, Jakarta",
+    buttonUrl: "https://www.tokopedia.com/payment/TKP-2026061388234",
+    footer: "© 2026 Tokopedia. PT Tokopedia, Ciputra World 2, Jakarta",
     clues: [
       {
         element: "email",
