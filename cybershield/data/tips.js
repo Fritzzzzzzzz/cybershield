@@ -117,7 +117,7 @@ export const tips = [
     title: "Periksa HTTPS Sebelum Input Data",
     shortDesc: "Gembok = terenkripsi. Tanpa gembok = bahaya",
     detail:
-      "Pastikan selalu ada ikon gembok 🔒 dan 'https://' di address bar sebelum memasukkan data apapun — terutama password dan info pembayaran. HTTPS mengenkripsi komunikasi antara browser dan server. Jangan abaikan peringatan sertifikat SSL dari browser.",
+      "Pastikan selalu ada ikon gembok 🔒 dan 'https://' di address bar sebelum memasukkan data apapun - terutama password dan info pembayaran. HTTPS mengenkripsi komunikasi antara browser dan server. Jangan abaikan peringatan sertifikat SSL dari browser.",
     level: "Pemula",
   },
   {
@@ -128,7 +128,7 @@ export const tips = [
     title: "Kunci Layar dengan PIN/Biometrik",
     shortDesc: "5 detik lock = melindungi seluruh data",
     detail:
-      "Aktifkan kunci layar otomatis yang aktif setelah beberapa detik tidak digunakan. Gunakan PIN minimal 6 digit, pola kompleks, atau biometrik. Data di HP bisa berisi akses ke email, banking, dan akun lain — jangan biarkan terbuka untuk umum.",
+      "Aktifkan kunci layar otomatis yang aktif setelah beberapa detik tidak digunakan. Gunakan PIN minimal 6 digit, pola kompleks, atau biometrik. Data di HP bisa berisi akses ke email, banking, dan akun lain - jangan biarkan terbuka untuk umum.",
     level: "Pemula",
   },
 ];

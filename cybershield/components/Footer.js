@@ -60,7 +60,7 @@ export default function Footer() {
             Dibuat untuk keperluan UAS · <span>Data and Information Security 2026</span>
           </p>
           <p>
-            <span>CyberShield</span> — Lindungi Dirimu di Dunia Digital
+            <span>CyberShield</span> - Lindungi Dirimu di Dunia Digital
           </p>
         </div>
       </div>

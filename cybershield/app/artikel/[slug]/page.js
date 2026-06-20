@@ -18,7 +18,8 @@ export async function generateMetadata({ params }) {
 }
 
 function renderContent(content) {
-  const lines = content.split('\n');
+  const cleanContent = content.replace(/\*/g, '').replace(/—/g, '-').replace(/–/g, '-');
+  const lines = cleanContent.split('\n');
   const elements = [];
   let i = 0;
 

@@ -4,7 +4,7 @@ import styles from './page.module.css';
 
 export const metadata = {
   title: 'Artikel Keamanan Siber',
-  description: 'Kumpulan artikel edukasi keamanan siber — phishing, ransomware, password, dan lebih banyak lagi.',
+  description: 'Kumpulan artikel edukasi keamanan siber - phishing, ransomware, password, dan lebih banyak lagi.',
 };
 
 export default function ArtikelPage() {

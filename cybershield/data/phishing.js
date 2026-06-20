@@ -70,7 +70,7 @@ Time: Saturday, June 13, 2026, 10:32 PM WIB`,
         element: "button",
         text: "https://myaccount.google.com/security",
         explanation:
-          "URL tujuan adalah 'myaccount.google.com' — domain resmi Google. Link ini aman untuk diklik.",
+          "URL tujuan adalah 'myaccount.google.com' - domain resmi Google. Link ini aman untuk diklik.",
       },
       {
         element: "content",
@@ -169,7 +169,7 @@ Selesaikan pembayaran dalam 24 jam agar pesanan tidak dibatalkan otomatis.`,
         element: "button",
         text: "https://www.tokopedia.com/payment/...",
         explanation:
-          "URL mengarah ke 'www.tokopedia.com' — domain resmi Tokopedia. Tidak ada redirect ke domain mencurigakan.",
+          "URL mengarah ke 'www.tokopedia.com' - domain resmi Tokopedia. Tidak ada redirect ke domain mencurigakan.",
       },
       {
         element: "content",

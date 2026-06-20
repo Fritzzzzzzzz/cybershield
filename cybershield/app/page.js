@@ -62,7 +62,7 @@ export default function HomePage() {
             </h1>
             <p className={styles.heroDesc}>
               Ancaman siber ada di mana-mana. Mulai dari phishing, ransomware,
-              hingga social engineering — semua bisa dicegah dengan pengetahuan yang tepat.
+              hingga social engineering - semua bisa dicegah dengan pengetahuan yang tepat.
               Belajar, simulasi, dan uji kemampuanmu sekarang.
             </p>
             <div className={styles.heroCtas}>

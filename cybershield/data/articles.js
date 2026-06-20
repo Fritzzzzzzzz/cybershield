@@ -11,7 +11,7 @@ export const articles = [
     content: `
 ## Apa Itu Phishing?
 
-Phishing adalah teknik penipuan siber di mana penyerang menyamar sebagai entitas terpercaya — seperti bank, platform e-commerce, atau bahkan teman — untuk mencuri informasi sensitif seperti kata sandi, nomor kartu kredit, atau data pribadi lainnya.
+Phishing adalah teknik penipuan siber di mana penyerang menyamar sebagai entitas terpercaya - seperti bank, platform e-commerce, atau bahkan teman - untuk mencuri informasi sensitif seperti kata sandi, nomor kartu kredit, atau data pribadi lainnya.
 
 Istilah "phishing" berasal dari kata "fishing" (memancing), menggambarkan bagaimana penyerang "memancing" korban dengan umpan yang terlihat meyakinkan.
 
@@ -34,19 +34,19 @@ Serangan yang menargetkan eksekutif perusahaan atau individu berprofil tinggi.
 
 ## Tanda-Tanda Email Phishing
 
-- ❌ **Pengirim mencurigakan** — alamat email tidak sesuai domain resmi
-- ❌ **Urgensi berlebihan** — "Akun Anda akan dihapus dalam 24 jam!"
-- ❌ **Link mencurigakan** — URL tidak sesuai dengan website resmi
-- ❌ **Kesalahan tata bahasa** — banyak typo dan kalimat tidak natural
-- ❌ **Meminta data sensitif** — institusi resmi tidak pernah minta password via email
+- ❌ Pengirim mencurigakan - alamat email tidak sesuai domain resmi
+- ❌ Urgensi berlebihan - "Akun Anda akan dihapus dalam 24 jam!"
+- ❌ Link mencurigakan - URL tidak sesuai dengan website resmi
+- ❌ Kesalahan tata bahasa - banyak typo dan kalimat tidak natural
+- ❌ Meminta data sensitif - institusi resmi tidak pernah minta password via email
 
 ## Cara Melindungi Diri
 
-1. **Verifikasi identitas pengirim** sebelum klik link apapun
-2. **Hover mouse di atas link** untuk melihat URL tujuan sebenarnya
-3. **Aktifkan 2FA** di semua akun penting
-4. **Gunakan email filter** yang memadai
-5. **Laporkan email mencurigakan** ke tim IT atau penyedia email
+1. Verifikasi identitas pengirim sebelum klik link apapun
+2. Hover mouse di atas link untuk melihat URL tujuan sebenarnya
+3. Aktifkan 2FA di semua akun penting
+4. Gunakan email filter yang memadai
+5. Laporkan email mencurigakan ke tim IT atau penyedia email
 
 ## Apa Yang Harus Dilakukan Jika Sudah Terkena Phishing?
 
@@ -68,27 +68,27 @@ Serangan yang menargetkan eksekutif perusahaan atau individu berprofil tinggi.
     content: `
 ## Mengapa Password Kuat Itu Penting?
 
-Setiap tahun, jutaan akun diretas karena penggunaan password yang lemah. Menurut laporan Verizon Data Breach, **81% pelanggaran data** disebabkan oleh password yang lemah atau dicuri.
+Setiap tahun, jutaan akun diretas karena penggunaan password yang lemah. Menurut laporan Verizon Data Breach, 81% pelanggaran data disebabkan oleh password yang lemah atau dicuri.
 
 ## Anatomi Password yang Kuat
 
 Password yang kuat memenuhi kriteria berikut:
-- ✅ Minimal **12 karakter** (semakin panjang semakin baik)
-- ✅ Kombinasi **huruf besar + huruf kecil**
-- ✅ Mengandung **angka dan simbol** (!@#$%^&*)
-- ✅ **Tidak mengandung informasi pribadi** (nama, tanggal lahir)
-- ✅ **Unik** untuk setiap akun
+- ✅ Minimal 12 karakter (semakin panjang semakin baik)
+- ✅ Kombinasi huruf besar + huruf kecil
+- ✅ Mengandung angka dan simbol (!@#$%^&)
+- ✅ Tidak mengandung informasi pribadi (nama, tanggal lahir)
+- ✅ Unik untuk setiap akun
 
 ## Teknik Membuat Password yang Mudah Diingat tapi Sulit Ditebak
 
 ### Metode Passphrase
 Gabungkan beberapa kata acak menjadi satu frasa:
-- **Contoh**: \`Kucing-Merah-Terbang-2024!\`
+- Contoh: \`Kucing-Merah-Terbang-2024!\`
 - Mudah diingat, tapi sangat sulit di-brute force
 
 ### Metode Substitusi
 Ganti huruf dengan simbol yang mirip:
-- **Contoh**: \`P@$$w0rd_Ku4t!\`
+- Contoh: \`P@$$w0rd_Ku4t!\`
 - 'a' → '@', 'o' → '0', 's' → '$'
 
 ### Metode Akronim
@@ -106,9 +106,9 @@ Ambil huruf pertama dari sebuah kalimat:
 ## Gunakan Password Manager
 
 Password manager adalah aplikasi yang menyimpan dan menghasilkan password kuat secara otomatis. Rekomendasi terpercaya:
-- **Bitwarden** (open source, gratis)
-- **1Password** (berbayar, fitur lengkap)
-- **KeePass** (offline, open source)
+- Bitwarden (open source, gratis)
+- 1Password (berbayar, fitur lengkap)
+- KeePass (offline, open source)
 
 ## Kapan Harus Ganti Password?
 
@@ -130,15 +130,15 @@ Password manager adalah aplikasi yang menyimpan dan menghasilkan password kuat s
     content: `
 ## Apa Itu 2FA?
 
-Two-Factor Authentication (2FA) atau Autentikasi Dua Faktor adalah metode keamanan yang mengharuskan pengguna membuktikan identitas mereka dengan **dua cara berbeda** sebelum bisa masuk ke akun.
+Two-Factor Authentication (2FA) atau Autentikasi Dua Faktor adalah metode keamanan yang mengharuskan pengguna membuktikan identitas mereka dengan dua cara berbeda sebelum bisa masuk ke akun.
 
 Bayangkan seperti brankas yang membutuhkan dua kunci berbeda untuk dibuka.
 
 ## Tiga Faktor Autentikasi
 
-1. **Something you know** — Password, PIN, pertanyaan keamanan
-2. **Something you have** — HP, token fisik, kartu pintar
-3. **Something you are** — Sidik jari, wajah, retina mata
+1. Something you know - Password, PIN, pertanyaan keamanan
+2. Something you have - HP, token fisik, kartu pintar
+3. Something you are - Sidik jari, wajah, retina mata
 
 2FA menggabungkan minimal dua dari faktor di atas.
 
@@ -148,13 +148,13 @@ Bayangkan seperti brankas yang membutuhkan dua kunci berbeda untuk dibuka.
 Kode dikirim via SMS. Mudah digunakan tapi paling rentan (bisa dicegat via SIM swapping).
 
 ### Authenticator App ⭐ (Direkomendasikan)
-Aplikasi seperti **Google Authenticator** atau **Authy** menghasilkan kode 6 digit yang berubah setiap 30 detik. Jauh lebih aman dari SMS.
+Aplikasi seperti Google Authenticator atau Authy menghasilkan kode 6 digit yang berubah setiap 30 detik. Jauh lebih aman dari SMS.
 
 ### Email OTP
 Kode dikirim ke email. Lebih aman dari SMS tapi tergantung keamanan email itu sendiri.
 
 ### Hardware Key
-Perangkat fisik seperti **YubiKey**. Paling aman, tapi paling mahal dan kurang praktis.
+Perangkat fisik seperti YubiKey. Paling aman, tapi paling mahal dan kurang praktis.
 
 ### Biometrik
 Sidik jari atau pengenalan wajah. Sangat nyaman dan cukup aman.
@@ -162,29 +162,29 @@ Sidik jari atau pengenalan wajah. Sangat nyaman dan cukup aman.
 ## Cara Aktifkan 2FA
 
 ### Di Gmail
-1. Buka **myaccount.google.com**
-2. Pilih **Security** → **2-Step Verification**
+1. Buka myaccount.google.com
+2. Pilih Security → 2-Step Verification
 3. Ikuti petunjuk setup
 
 ### Di Instagram
-1. Buka **Settings** → **Security**
-2. Pilih **Two-Factor Authentication**
+1. Buka Settings → Security
+2. Pilih Two-Factor Authentication
 3. Pilih metode (App atau SMS)
 
 ### Di WhatsApp
-1. **Settings** → **Account**
-2. **Two-step verification** → **Enable**
+1. Settings → Account
+2. Two-step verification → Enable
 3. Masukkan PIN 6 digit
 
 ## Kenapa 2FA Sangat Penting?
 
-Menurut Microsoft, **2FA memblokir 99.9% serangan akun otomatis**. Bahkan jika password kamu bocor, tanpa akses ke faktor kedua, peretas tidak bisa masuk.
+Menurut Microsoft, 2FA memblokir 99.9% serangan akun otomatis. Bahkan jika password kamu bocor, tanpa akses ke faktor kedua, peretas tidak bisa masuk.
 
 ## Tips Penting
 
-- Simpan **backup codes** di tempat aman (di luar perangkat utama)
+- Simpan backup codes di tempat aman (di luar perangkat utama)
 - Jangan pernah bagikan kode OTP ke siapapun, bahkan yang mengaku petugas resmi
-- Gunakan **authenticator app** daripada SMS jika memungkinkan
+- Gunakan authenticator app daripada SMS jika memungkinkan
     `.trim(),
   },
   {
@@ -199,10 +199,10 @@ Menurut Microsoft, **2FA memblokir 99.9% serangan akun otomatis**. Bahkan jika p
     content: `
 ## Mengapa Wi-Fi Publik Berbahaya?
 
-Wi-Fi publik — baik di kafe, bandara, mall, atau tempat umum lainnya — seringkali tidak terenkripsi atau diamankan dengan baik. Ini membuka peluang bagi penyerang untuk:
+Wi-Fi publik - baik di kafe, bandara, mall, atau tempat umum lainnya - seringkali tidak terenkripsi atau diamankan dengan baik. Ini membuka peluang bagi penyerang untuk:
 
 ### Man-in-the-Middle (MitM) Attack
-Penyerang memposisikan diri di antara kamu dan router Wi-Fi, memungkinkan mereka untuk **membaca semua data yang kamu kirim dan terima** — termasuk login credential dan data pribadi.
+Penyerang memposisikan diri di antara kamu dan router Wi-Fi, memungkinkan mereka untuk membaca semua data yang kamu kirim dan terima - termasuk login credential dan data pribadi.
 
 ### Evil Twin Attack
 Penyerang membuat hotspot Wi-Fi palsu dengan nama yang mirip jaringan resmi. Misalnya: "Starbucks_WiFi" vs "Starbucks-WiFi". Begitu terhubung, semua traffic kamu melewati perangkat penyerang.
@@ -222,8 +222,8 @@ Menggunakan software khusus untuk "menangkap" paket data yang melewati jaringan 
 
 ### 1. Gunakan VPN (Virtual Private Network)
 VPN mengenkripsi semua traffic internet kamu, membuatnya tidak terbaca meski dicegat. Rekomendasi:
-- **ProtonVPN** (gratis, terpercaya)
-- **Mullvad** (berbayar, privasi tinggi)
+- ProtonVPN (gratis, terpercaya)
+- Mullvad (berbayar, privasi tinggi)
 
 ### 2. Verifikasi Jaringan Sebelum Connect
 Tanya nama jaringan yang benar kepada staf tempat tersebut. Jangan asal connect ke Wi-Fi yang tersedia.
@@ -260,7 +260,7 @@ Pastikan firewall perangkat kamu aktif saat menggunakan Wi-Fi publik.
     content: `
 ## Apa Itu Ransomware?
 
-Ransomware adalah jenis malware yang **mengenkripsi file-file di komputer korban**, membuat data tidak bisa diakses, lalu **menuntut tebusan** (ransom) untuk mendapatkan kunci dekripsi.
+Ransomware adalah jenis malware yang mengenkripsi file-file di komputer korban, membuat data tidak bisa diakses, lalu menuntut tebusan (ransom) untuk mendapatkan kunci dekripsi.
 
 Nama "ransomware" berasal dari kata "ransom" (tebusan) + "software".
 
@@ -292,30 +292,30 @@ Mencolokkan USB yang terinfeksi bisa langsung menyebarkan ransomware.
 
 ## Tahapan Serangan Ransomware
 
-1. **Infiltrasi** — Masuk ke sistem melalui phishing, eksploitasi, dll.
-2. **Persistence** — Menanam diri agar tetap ada meski restart
-3. **Lateral Movement** — Menyebar ke komputer lain dalam jaringan
-4. **Exfiltration** — Mencuri data untuk leverage tambahan
-5. **Enkripsi** — Mengenkripsi semua file yang bisa ditemukan
-6. **Ransom Note** — Menampilkan pesan tuntutan tebusan
+1. Infiltrasi - Masuk ke sistem melalui phishing, eksploitasi, dll.
+2. Persistence - Menanam diri agar tetap ada meski restart
+3. Lateral Movement - Menyebar ke komputer lain dalam jaringan
+4. Exfiltration - Mencuri data untuk leverage tambahan
+5. Enkripsi - Mengenkripsi semua file yang bisa ditemukan
+6. Ransom Note - Menampilkan pesan tuntutan tebusan
 
 ## Cara Mencegah Ransomware
 
-1. **Backup data secara rutin** (ikuti aturan 3-2-1: 3 salinan, 2 media berbeda, 1 offsite)
-2. **Update sistem operasi dan software** secara rutin
-3. **Jangan klik link atau attachment mencurigakan**
-4. **Gunakan antivirus yang up-to-date**
-5. **Batasi hak akses** (prinsip least privilege)
-6. **Nonaktifkan makro** di dokumen Office jika tidak diperlukan
+1. Backup data secara rutin (ikuti aturan 3-2-1: 3 salinan, 2 media berbeda, 1 offsite)
+2. Update sistem operasi dan software secara rutin
+3. Jangan klik link atau attachment mencurigakan
+4. Gunakan antivirus yang up-to-date
+5. Batasi hak akses (prinsip least privilege)
+6. Nonaktifkan makro di dokumen Office jika tidak diperlukan
 
 ## Apa Yang Harus Dilakukan Jika Terkena Ransomware?
 
-1. **Segera isolasi perangkat** dari jaringan (cabut kabel LAN, matikan Wi-Fi)
-2. **Jangan bayar tebusan** — tidak ada jaminan data akan dikembalikan
-3. **Laporkan ke pihak berwajib** (BSSN, Polri)
-4. **Hubungi profesional keamanan siber**
-5. **Coba tools dekripsi gratis** di nomoreransom.org
-6. **Restore dari backup** jika tersedia
+1. Segera isolasi perangkat dari jaringan (cabut kabel LAN, matikan Wi-Fi)
+2. Jangan bayar tebusan - tidak ada jaminan data akan dikembalikan
+3. Laporkan ke pihak berwajib (BSSN, Polri)
+4. Hubungi profesional keamanan siber
+5. Coba tools dekripsi gratis di nomoreransom.org
+6. Restore dari backup jika tersedia
     `.trim(),
   },
   {
@@ -330,9 +330,9 @@ Mencolokkan USB yang terinfeksi bisa langsung menyebarkan ransomware.
     content: `
 ## Apa Itu Social Engineering?
 
-Social engineering adalah teknik manipulasi psikologis yang digunakan penyerang untuk **menipu orang agar memberikan informasi rahasia atau melakukan tindakan yang menguntungkan penyerang**.
+Social engineering adalah teknik manipulasi psikologis yang digunakan penyerang untuk menipu orang agar memberikan informasi rahasia atau melakukan tindakan yang menguntungkan penyerang.
 
-Berbeda dengan serangan teknis yang menyerang sistem, social engineering menyerang **psikologi manusia** — mengeksploitasi kepercayaan, rasa takut, keserakahan, atau keinginan untuk membantu.
+Berbeda dengan serangan teknis yang menyerang sistem, social engineering menyerang psikologi manusia - mengeksploitasi kepercayaan, rasa takut, keserakahan, atau keinginan untuk membantu.
 
 ## Teknik-Teknik Social Engineering
 
@@ -340,7 +340,7 @@ Berbeda dengan serangan teknis yang menyerang sistem, social engineering menyera
 Penyerang menciptakan skenario palsu (pretext) untuk mendapatkan informasi. Contoh: berpura-pura sebagai auditor IT yang membutuhkan akses sistem.
 
 ### 2. Baiting
-Menggunakan "umpan" fisik atau digital. Contoh: meninggalkan USB drive di parkiran kantor dengan label "Gaji Karyawan 2026" — siapa yang penasaran dan mencolokkannya akan terinfeksi malware.
+Menggunakan "umpan" fisik atau digital. Contoh: meninggalkan USB drive di parkiran kantor dengan label "Gaji Karyawan 2026" - siapa yang penasaran dan mencolokkannya akan terinfeksi malware.
 
 ### 3. Quid Pro Quo
 Menawarkan sesuatu sebagai imbalan informasi. Contoh: menelepon dan menawarkan bantuan teknis gratis, lalu meminta akses ke komputer.
@@ -349,31 +349,31 @@ Menawarkan sesuatu sebagai imbalan informasi. Contoh: menelepon dan menawarkan b
 Mengikuti karyawan masuk ke area terlarang tanpa otorisasi, memanfaatkan kebaikan orang yang menahan pintu.
 
 ### 5. Impersonation
-Menyamar sebagai orang lain — teknisi, petugas keamanan, atau eksekutif perusahaan.
+Menyamar sebagai orang lain - teknisi, petugas keamanan, atau eksekutif perusahaan.
 
 ### 6. Scareware
 Membuat korban panik dengan peringatan palsu. Contoh: popup "Komputer Anda terinfeksi virus! Hubungi nomor ini segera!"
 
 ## Prinsip Psikologis yang Dieksploitasi
 
-- **Otoritas** — Orang cenderung patuh pada figur otoritas
-- **Urgensi** — Tekanan waktu mengurangi kemampuan berpikir kritis
-- **Kepercayaan** — Memanfaatkan hubungan yang sudah ada
-- **Timbal Balik** — Kewajiban membalas kebaikan
-- **Kelangkaan** — Takut kehilangan kesempatan
+- Otoritas - Orang cenderung patuh pada figur otoritas
+- Urgensi - Tekanan waktu mengurangi kemampuan berpikir kritis
+- Kepercayaan - Memanfaatkan hubungan yang sudah ada
+- Timbal Balik - Kewajiban membalas kebaikan
+- Kelangkaan - Takut kehilangan kesempatan
 
 ## Cara Melindungi Diri
 
-1. **Verifikasi identitas** siapapun yang meminta akses atau informasi
-2. **Waspada terhadap permintaan mendadak** yang terasa mendesak
-3. **Ikuti prosedur keamanan** meskipun terasa merepotkan
-4. **Edukasi dan pelatihan** kesadaran keamanan secara rutin
-5. **Jangan bagikan informasi sensitif** via telepon atau email tanpa verifikasi
-6. **Trust your gut** — jika sesuatu terasa mencurigakan, hentikan dan verifikasi
+1. Verifikasi identitas siapapun yang meminta akses atau informasi
+2. Waspada terhadap permintaan mendadak yang terasa mendesak
+3. Ikuti prosedur keamanan meskipun terasa merepotkan
+4. Edukasi dan pelatihan kesadaran keamanan secara rutin
+5. Jangan bagikan informasi sensitif via telepon atau email tanpa verifikasi
+6. Trust your gut - jika sesuatu terasa mencurigakan, hentikan dan verifikasi
 
 ## Contoh Kasus Nyata
 
-**The Twitter Hack (2020)**: Penyerang menggunakan social engineering melalui telepon untuk menipu karyawan Twitter memberikan akses ke tools internal. Hasilnya: akun Barack Obama, Elon Musk, Apple, dan Bill Gates digunakan untuk scam Bitcoin senilai $120.000.
+The Twitter Hack (2020): Penyerang menggunakan social engineering melalui telepon untuk menipu karyawan Twitter memberikan akses ke tools internal. Hasilnya: akun Barack Obama, Elon Musk, Apple, dan Bill Gates digunakan untuk scam Bitcoin senilai $120.000.
     `.trim(),
   },
 ];

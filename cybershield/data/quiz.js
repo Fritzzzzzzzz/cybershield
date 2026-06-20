@@ -36,7 +36,7 @@ export const quizQuestions = [
     ],
     correct: 1,
     explanation:
-      "2FA adalah metode keamanan yang mengharuskan pengguna membuktikan identitas mereka dengan dua cara berbeda — biasanya sesuatu yang mereka tahu (password) dan sesuatu yang mereka miliki (kode dari HP). Ini melindungi akun meskipun password bocor.",
+      "2FA adalah metode keamanan yang mengharuskan pengguna membuktikan identitas mereka dengan dua cara berbeda - biasanya sesuatu yang mereka tahu (password) dan sesuatu yang mereka miliki (kode dari HP). Ini melindungi akun meskipun password bocor.",
   },
   {
     id: 4,
@@ -101,7 +101,7 @@ export const quizQuestions = [
     ],
     correct: 1,
     explanation:
-      "Social engineering adalah teknik manipulasi psikologis yang mengeksploitasi sifat manusia seperti kepercayaan, rasa takut, dan keinginan membantu — bukan kelemahan teknis sistem. Ini adalah salah satu vektor serangan paling efektif karena sulit dideteksi oleh teknologi.",
+      "Social engineering adalah teknik manipulasi psikologis yang mengeksploitasi sifat manusia seperti kepercayaan, rasa takut, dan keinginan membantu - bukan kelemahan teknis sistem. Ini adalah salah satu vektor serangan paling efektif karena sulit dideteksi oleh teknologi.",
   },
   {
     id: 9,
@@ -114,16 +114,16 @@ export const quizQuestions = [
     ],
     correct: 2,
     explanation:
-      "Authenticator app lebih aman daripada SMS karena tidak rentan terhadap SIM swapping — teknik di mana penyerang mengalihkan nomor HP kamu ke SIM mereka untuk mencuri kode OTP. Kode dari authenticator app hanya bisa diakses dari perangkat fisik kamu.",
+      "Authenticator app lebih aman daripada SMS karena tidak rentan terhadap SIM swapping - teknik di mana penyerang mengalihkan nomor HP kamu ke SIM mereka untuk mencuri kode OTP. Kode dari authenticator app hanya bisa diakses dari perangkat fisik kamu.",
   },
   {
     id: 10,
     question: "Apa kepanjangan HTTPS dan mengapa penting?",
     options: [
-      "HyperText Transfer Protocol Secure — mengenkripsi data antara browser dan server",
-      "High-Tech Transfer Protocol System — protokol internet generasi terbaru",
-      "HyperText Tracking Protocol Security — melindungi dari iklan berbahaya",
-      "Home Transfer Protocol Standard — protokol untuk transfer file",
+      "HyperText Transfer Protocol Secure - mengenkripsi data antara browser dan server",
+      "High-Tech Transfer Protocol System - protokol internet generasi terbaru",
+      "HyperText Tracking Protocol Security - melindungi dari iklan berbahaya",
+      "Home Transfer Protocol Standard - protokol untuk transfer file",
     ],
     correct: 0,
     explanation:
@@ -133,14 +133,14 @@ export const quizQuestions = [
     id: 11,
     question: "Apa itu VPN dan fungsinya?",
     options: [
-      "Virtual Phone Network — jaringan telepon terenkripsi",
-      "Very Private Network — jaringan khusus untuk pemerintah",
-      "Virtual Private Network — mengenkripsi traffic internet dan menyembunyikan IP address",
-      "Verified Public Network — Wi-Fi publik yang terverifikasi aman",
+      "Virtual Phone Network - jaringan telepon terenkripsi",
+      "Very Private Network - jaringan khusus untuk pemerintah",
+      "Virtual Private Network - mengenkripsi traffic internet dan menyembunyikan IP address",
+      "Verified Public Network - Wi-Fi publik yang terverifikasi aman",
     ],
     correct: 2,
     explanation:
-      "VPN (Virtual Private Network) membuat 'terowongan' terenkripsi untuk traffic internet kamu, menyembunyikan alamat IP asli dan melindungi data dari pengintaian — terutama berguna di Wi-Fi publik. VPN juga bisa digunakan untuk mengakses konten yang dibatasi secara geografis.",
+      "VPN (Virtual Private Network) membuat 'terowongan' terenkripsi untuk traffic internet kamu, menyembunyikan alamat IP asli dan melindungi data dari pengintaian - terutama berguna di Wi-Fi publik. VPN juga bisa digunakan untuk mengakses konten yang dibatasi secara geografis.",
   },
   {
     id: 12,

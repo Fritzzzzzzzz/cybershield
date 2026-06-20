@@ -11,7 +11,7 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata = {
   title: {
-    default: 'CyberShield — Edukasi Keamanan Siber',
+    default: 'CyberShield - Edukasi Keamanan Siber',
     template: '%s | CyberShield',
   },
   description:
@@ -19,7 +19,7 @@ export const metadata = {
   keywords: ['keamanan siber', 'cyber security', 'phishing', 'password', 'digital security', 'edukasi'],
   authors: [{ name: 'Muhammad Rizqi Firdaus' }],
   openGraph: {
-    title: 'CyberShield — Edukasi Keamanan Siber',
+    title: 'CyberShield - Edukasi Keamanan Siber',
     description: 'Platform edukasi keamanan siber terlengkap untuk masyarakat Indonesia.',
     type: 'website',
   },
