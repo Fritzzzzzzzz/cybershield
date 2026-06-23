@@ -382,3 +382,10 @@
   .layout { grid-template-columns: 1fr; }
   .panelCard { position: static; }
 }
+
+@media (max-width: 600px) {
+  .resultCard { padding: 28px 20px; box-shadow: 6px 6px 0 var(--black); }
+  .resultActions { flex-direction: column; width: 100%; }
+  .resultActions .btn { width: 100%; justify-content: center; }
+  .progressDots { flex-wrap: wrap; }
+}

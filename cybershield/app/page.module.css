@@ -5,6 +5,7 @@
   position: relative;
   overflow: hidden;
   background: var(--bg);
+  max-width: 100%;
 }
 
 .heroContent {
@@ -138,6 +139,19 @@
 
 @media (max-width: 900px) {
   .heroBadge { display: none; }
+  .heroContent { max-width: 100%; }
+}
+
+@media (max-width: 768px) {
+  .hero { padding: 56px 0 48px; }
+  .heroTitle { font-size: clamp(2.2rem, 9vw, 3.5rem); }
+  .heroHighlight { box-shadow: 4px 4px 0 var(--black); }
+  .heroCtas { flex-direction: column; align-items: flex-start; }
+  .heroCtas .btn { width: 100%; justify-content: center; }
+  .ctaBanner { padding: 48px 0; }
+  .ctaInner { flex-direction: column; align-items: flex-start; }
+  .ctaButtons { width: 100%; flex-direction: column; }
+  .ctaButtons .btn { width: 100%; justify-content: center; }
 }
 
 /* ===== STATS ===== */

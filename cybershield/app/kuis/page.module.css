@@ -317,4 +317,9 @@
   .doneCard { padding: 24px; }
   .doneScore { flex-direction: column; }
   .questionCard { padding: 20px; }
+  .landingCard { padding: 28px 20px; box-shadow: 6px 6px 0 var(--black); }
+  .doneCard { box-shadow: 6px 6px 0 var(--black); }
+  .doneActions { flex-direction: column; }
+  .doneActions .btn { width: 100%; justify-content: center; }
+  .landingInfo { grid-template-columns: 1fr; }
 }
